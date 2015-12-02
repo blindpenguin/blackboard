@@ -3704,9 +3704,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #494949;
   min-height: 300px; }
 
+#about {
+  margin-top: 10px; }
+
 #footer {
   min-height: 80px;
   line-height: 80px; }
+
+.title {
+  margin-top: 50px; }
 
 .iconium {
   padding: 8px;
@@ -3732,6 +3738,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px; }
 
 .item img {
+  border-radius: 50%;
+  border: 10px solid #717171;
+  box-shadow: -2px 3px 7px #2a2a2a; }
+
+.about-image img {
   border-radius: 50%;
   border: 10px solid #717171;
   box-shadow: -2px 3px 7px #2a2a2a; }
