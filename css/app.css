@@ -3680,6 +3680,9 @@ table.hover tr:nth-of-type(even):hover {
 h1, h2, h3, h4, h5, h6 {
   text-align: center; }
 
+textarea {
+  min-height: 200px; }
+
 #main {
   background-color: #333;
   box-shadow: 0 0 5px #242424;
@@ -3707,12 +3710,18 @@ h1, h2, h3, h4, h5, h6 {
 #about {
   margin-top: 10px; }
 
+#contact {
+  margin-top: 10px;
+  background-color: #494949;
+  min-height: 350px; }
+
 #footer {
   min-height: 80px;
   line-height: 80px; }
 
 .title {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .iconium {
   padding: 8px;
@@ -3746,3 +3755,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   border: 10px solid #717171;
   box-shadow: -2px 3px 7px #2a2a2a; }
+
+.contact-icon {
+  font-size: 30pt;
+  line-height: 350px;
+  text-align: center;
+  color: #717171; }

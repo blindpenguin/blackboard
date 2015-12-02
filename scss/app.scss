@@ -41,8 +41,13 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+$lighter-black: #494949;
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
+}
+textarea {
+	min-height: 200px;
 }
 #main {
 	background-color: $light-black;
@@ -65,11 +70,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 #content-two {
 	margin-top: 10px;
-	background-color: #494949;
+	background-color: $lighter-black;
 	min-height: 300px
 }
 #about {
 	margin-top: 10px;
+}
+#contact {
+	margin-top: 10px;
+	background-color: $lighter-black;
+	min-height: 350px
 }
 #footer {
 	min-height: 80px;
@@ -77,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .title {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .iconium  {
 	padding: 8px;
@@ -89,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 .iconium:hover  {
 	padding: 8px;
 	margin: 5px;
-	background-color: #494949;
+	background-color: $lighter-black;
 	border-radius: 5px;
 	box-shadow: -2px 3px 3px #2a2a2a;
 }
@@ -112,4 +123,10 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 50%;
 	border: 10px solid #717171;
 	box-shadow: -2px 3px 7px #2a2a2a;
+}
+.contact-icon {
+	font-size: 30pt;
+	line-height: 350px;
+	text-align: center;
+	color: #717171;
 }
